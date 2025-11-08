@@ -39,21 +39,21 @@ Create a 3D stellar viewer that:
 
 ## Features
 
-### Phase 1 (Current - v0.01)
+### Phase 1 (Current - v0.01) - COMPLETED
 - [x] Project initialization
-- [ ] File picker for .AstroDB files
-- [ ] 3D viewport with basic rendering
-- [ ] Camera controls:
+- [x] File picker for .AstroDB files
+- [x] 3D viewport with basic rendering
+- [x] Camera controls:
   - Left click + drag: Rotate view
   - Middle mouse scroll: Zoom in/out
   - Middle mouse button + drag: Pan view
-- [ ] Star rendering:
+- [x] Star rendering:
   - Color based on spectral classification (O, B, A, F, G, K, M)
   - Size based on classification and distance
   - Perspective scaling (50 ly max distance, 1 pixel minimum)
-- [ ] System name labels (toggle checkbox)
+- [x] System name labels (toggle checkbox)
   - Show/hide names for systems within 25 light-years
-- [ ] Multi-star system handling
+- [x] Multi-star system handling
   - Display the larger star from multi-star systems
 
 ### Future Phases
@@ -233,11 +233,11 @@ Screenshots are stored in: `D:\Dropbox\Screenshots\`
 - SQLite: https://www.sqlite.org/
 
 ## Contact & Support
-- GitHub Issues: (URL will be added after repo creation)
-- Project Repository: (URL will be added after repo creation)
+- GitHub Issues: https://github.com/rem5357/AstroViewer/issues
+- Project Repository: https://github.com/rem5357/AstroViewer
 
 ---
 
 **Last Modified:** 2025-11-07
-**Next Build:** 2 (pending first compilation)
+**Next Build:** 2 (pending next compilation)
 **Next Version:** 0.01 (awaiting user increment command)

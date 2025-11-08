@@ -104,4 +104,8 @@ Copyright © 2025 AstroViewer Project
 
 ## Support
 
-For issues and feature requests, please use the GitHub issue tracker.
+For issues and feature requests, please use the [GitHub issue tracker](https://github.com/rem5357/AstroViewer/issues).
+
+## Repository
+
+https://github.com/rem5357/AstroViewer
