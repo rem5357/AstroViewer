@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+
+    <!-- Version Information -->
+    <Version>0.01</Version>
+    <FileVersion>0.01.0.1</FileVersion>
+    <AssemblyVersion>0.01.0.1</AssemblyVersion>
+    <ApplicationIcon></ApplicationIcon>
+    <Company>AstroViewer Project</Company>
+    <Product>AstroViewer</Product>
+    <Description>3D Stellar Viewer for Astrosynthesis Database Files</Description>
+    <Copyright>Copyright © 2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HelixToolkit.Wpf" Version="2.27.3" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.10" />
+  </ItemGroup>
+
+</Project>
