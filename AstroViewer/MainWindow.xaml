@@ -52,8 +52,18 @@
 
                 <!-- Controls -->
                 <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center">
+                    <Button Name="BtnResetView"
+                            Content="Reset View"
+                            Click="BtnResetView_Click"
+                            Padding="15,5"
+                            Background="#34495E"
+                            Foreground="White"
+                            BorderBrush="#3498DB"
+                            BorderThickness="1"
+                            Cursor="Hand"
+                            Margin="0,0,20,0"/>
                     <CheckBox Name="ChkShowLabels"
-                              Content="Show System Names (within 25 ly)"
+                              Content="Show System Names (within 100 ly)"
                               Foreground="White"
                               VerticalAlignment="Center"
                               Margin="0,0,20,0"
@@ -91,13 +101,6 @@
                 <!-- Default Lighting -->
                 <helix:DefaultLights/>
 
-                <!-- Model Group for Stars -->
-                <ModelVisual3D>
-                    <ModelVisual3D.Content>
-                        <Model3DGroup x:Name="StarsModelGroup"/>
-                    </ModelVisual3D.Content>
-                </ModelVisual3D>
-
             </helix:HelixViewport3D>
         </Border>
 
@@ -115,7 +118,7 @@
                            VerticalAlignment="Center"/>
 
                 <StackPanel Grid.Column="1" Orientation="Horizontal">
-                    <TextBlock Text="Version 0.01 Build 1"
+                    <TextBlock Text="Version 0.02 Build 3"
                                Foreground="#95A5A6"
                                VerticalAlignment="Center"
                                Margin="0,0,20,0"/>

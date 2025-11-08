@@ -8,9 +8,9 @@
     <UseWPF>true</UseWPF>
 
     <!-- Version Information -->
-    <Version>0.01</Version>
-    <FileVersion>0.01.0.1</FileVersion>
-    <AssemblyVersion>0.01.0.1</AssemblyVersion>
+    <Version>0.02</Version>
+    <FileVersion>0.02.0.3</FileVersion>
+    <AssemblyVersion>0.02.0.3</AssemblyVersion>
     <ApplicationIcon></ApplicationIcon>
     <Company>AstroViewer Project</Company>
     <Product>AstroViewer</Product>
